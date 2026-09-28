@@ -84,6 +84,8 @@ export async function boot() {
   for (const b of document.querySelectorAll('[data-support]')) b.onclick = () => dlg.showModal();
   $('#support-close').onclick = () => dlg.close();
   dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+  // the games link here with #support to open the QR straight away
+  if (location.hash === '#support') dlg.showModal();
 }
 
 if (typeof document !== 'undefined') boot();
