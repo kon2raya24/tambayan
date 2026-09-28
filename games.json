@@ -1,0 +1,64 @@
+{
+  "games": [
+    {
+      "id": "bantay-kubo",
+      "title": "Bantay Kubo",
+      "tagline": "Battle City, Pinoy style",
+      "description": "Drive a jeepney tank, fire garlic, and guard the bahay kubo from an army of duwende, tikbalang, aswang and kapre across five barangays.",
+      "genre": "Arcade",
+      "tags": ["Action", "Retro", "Folklore"],
+      "url": "https://bantay-kubo.vercel.app/",
+      "mirror": null,
+      "repo": "https://github.com/kon2raya24/bantay-kubo",
+      "thumb": "thumbs/bantay-kubo.webp",
+      "controls": "Keyboard · Touch",
+      "status": "live",
+      "added": "2026-09-28"
+    },
+    {
+      "id": "ahas",
+      "title": "Ahas sa Fiesta",
+      "tagline": "Classic snake at a Pinoy fiesta",
+      "description": "A flag-colored snake in a salakot eats street food on a woven banig and dodges the tinikling poles, through seven festival barangays.",
+      "genre": "Arcade",
+      "tags": ["Classic", "Endless", "Festivals"],
+      "url": "https://ahas-sa-fiesta.vercel.app/",
+      "mirror": "https://kon2raya24.github.io/ahas/",
+      "repo": "https://github.com/kon2raya24/ahas",
+      "thumb": "thumbs/ahas.webp",
+      "controls": "Keyboard · Swipe",
+      "status": "live",
+      "added": "2026-09-28"
+    },
+    {
+      "id": "huling-byahe",
+      "title": "Huling Byahe",
+      "tagline": "The last jeepney of the night",
+      "description": "Drive the last trip through Manila from 11 PM to 5 AM. Your passengers are ghosts, and each one has somewhere to be before sunrise.",
+      "genre": "Story",
+      "tags": ["Driving", "Ghosts", "Seven nights"],
+      "url": "https://huling-byahe.vercel.app/",
+      "mirror": "https://kon2raya24.github.io/huling-byahe/",
+      "repo": "https://github.com/kon2raya24/huling-byahe",
+      "thumb": "thumbs/huling-byahe.webp",
+      "controls": "Keyboard · Touch",
+      "status": "live",
+      "added": "2026-09-28"
+    },
+    {
+      "id": "isang-tira",
+      "title": "Isang Tira",
+      "tagline": "One-turn Sungka puzzles",
+      "description": "Ten Sungka boards, one turn each. Find the perfect sowing that a solver proved is possible. An early playtest of a daily puzzle.",
+      "genre": "Puzzle",
+      "tags": ["Sungka", "Brain teaser", "Prototype"],
+      "url": "https://isang-tira-playtest.vercel.app/play.html",
+      "mirror": "https://kon2raya24.github.io/isang-tira-playtest/play.html",
+      "repo": "https://github.com/kon2raya24/isang-tira-playtest",
+      "thumb": "thumbs/isang-tira.webp",
+      "controls": "Mouse · Touch",
+      "status": "prototype",
+      "added": "2026-09-25"
+    }
+  ]
+}

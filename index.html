@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tambayan Arcade</title>
+<meta name="description" content="Free Pinoy browser games by Lemmuel Turaya: Bantay Kubo, Ahas sa Fiesta, Huling Byahe and more. No downloads, play on any phone or computer.">
+<meta property="og:title" content="Tambayan Arcade">
+<meta property="og:description" content="Free Pinoy browser games. Tambay ka muna, laro tayo!">
+<meta property="og:image" content="https://tambayan-arcade.vercel.app/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1d0a2b">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+:root { --bg: #1d0a2b; --panel: #2a1340; --ink: #fff8e1; --muted: #d9bfe6; --yellow: #fcd116; --red: #ce1126; --blue: #3d6bff; --pink: #ff6fb5; --teal: #2ec4b6; color-scheme: dark; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+html, body { margin: 0; color: var(--ink); font: 16px/1.5 "Baloo 2", system-ui, -apple-system, "Segoe UI", sans-serif; }
+body { background: radial-gradient(ellipse at 50% -10%, #5a1f75 0%, #2a0f3a 40%, #140620 100%) fixed; background-color: var(--bg); min-height: 100vh; }
+a { color: var(--yellow); }
+.bunting { height: 30px; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='204' height='30'%3E%3Cpath d='M0 2h204' stroke='%23140620' stroke-width='2'/%3E%3Cpath d='M2 2h30l-15 24z' fill='%23ce1126'/%3E%3Cpath d='M36 2h30l-15 24z' fill='%23fcd116'/%3E%3Cpath d='M70 2h30l-15 24z' fill='%233d6bff'/%3E%3Cpath d='M104 2h30l-15 24z' fill='%23ff6fb5'/%3E%3Cpath d='M138 2h30l-15 24z' fill='%232ec4b6'/%3E%3Cpath d='M172 2h30l-15 24z' fill='%23ff9f1c'/%3E%3C/svg%3E") 0 0 / 204px 30px repeat-x; }
+.wrap { width: min(1120px, 100%); margin: 0 auto; padding: 0 16px 40px; }
+header { text-align: center; padding: 18px 0 8px; }
+.logo { margin: 0; font-size: clamp(42px, 10vw, 84px); line-height: .95; font-weight: 800; letter-spacing: .02em; color: var(--yellow); text-shadow: 0 5px 0 #7a2a10, 0 0 40px rgba(252,209,22,.3); }
+.logo span { color: var(--pink); }
+.sub { margin: 6px 0 0; color: var(--muted); font-size: clamp(15px, 2.4vw, 19px); }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 16px 0 6px; }
+.btn { display: inline-flex; align-items: center; gap: 6px; font: inherit; font-weight: 800; text-decoration: none; color: var(--ink); background: rgba(80, 30, 100, .85); border: 2px solid rgba(252, 209, 22, .5); border-radius: 12px; padding: 8px 18px; cursor: pointer; min-height: 44px; }
+.btn:hover { background: rgba(110, 40, 130, .95); }
+.btn:focus-visible { outline: 3px solid var(--pink); outline-offset: 2px; }
+.btn.primary { background: var(--yellow); color: #2a0f3a; border-color: var(--yellow); box-shadow: 0 4px 0 #b58f00; }
+.btn.pink { border-color: rgba(255, 111, 181, .8); }
+.hero { display: grid; grid-template-columns: 1.3fr 1fr; gap: 20px; align-items: center; background: linear-gradient(135deg, rgba(90, 31, 117, .6), rgba(42, 19, 64, .9)); border: 2px solid rgba(252, 209, 22, .35); border-radius: 20px; padding: 16px; margin: 18px 0 26px; }
+.hero[hidden] { display: none; }
+.hero img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; display: block; box-shadow: 0 10px 30px rgba(0,0,0,.5); }
+.kicker { margin: 0; color: var(--pink); font-weight: 800; letter-spacing: .1em; text-transform: uppercase; font-size: 13px; }
+.hero h2 { margin: 2px 0; font-size: clamp(30px, 5vw, 46px); line-height: 1; color: var(--yellow); }
+.hero .tag { margin: 0 0 8px; color: var(--ink); font-weight: 700; }
+.hero p { margin: 0 0 12px; color: var(--muted); }
+.bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 14px; }
+.bar h2 { margin: 0; font-size: 26px; }
+.bar .count { color: var(--muted); font-size: 15px; font-weight: 700; margin-left: 8px; }
+.filters { display: flex; flex-wrap: wrap; gap: 6px; }
+.filters button { font: inherit; font-weight: 700; font-size: 14px; color: var(--ink); background: rgba(60, 20, 80, .7); border: 1.5px solid rgba(217, 191, 230, .35); border-radius: 999px; padding: 4px 14px; cursor: pointer; min-height: 36px; }
+.filters button[aria-pressed=true] { background: var(--pink); color: #2a0f3a; border-color: var(--pink); }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 18px; }
+.game { background: var(--panel); border: 2px solid rgba(252, 209, 22, .2); border-radius: 18px; overflow: hidden; display: flex; flex-direction: column; transition: transform .15s, border-color .15s; }
+.game:hover { transform: translateY(-3px); border-color: rgba(252, 209, 22, .6); }
+.game[hidden] { display: none; }
+.cover { position: relative; display: block; }
+.cover img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
+.badge { position: absolute; top: 10px; left: 10px; background: var(--yellow); color: #2a0f3a; font-weight: 800; font-size: 13px; padding: 1px 10px; border-radius: 999px; transform: rotate(-4deg); box-shadow: 0 3px 0 #b58f00; }
+.badge.proto { background: #9ccfd8; box-shadow: 0 3px 0 #4f8a94; }
+.body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.meta { display: flex; gap: 8px; align-items: center; font-size: 13px; color: var(--muted); }
+.genre { color: var(--teal); font-weight: 800; text-transform: uppercase; letter-spacing: .08em; }
+.title { margin: 0; font-size: 24px; line-height: 1.1; }
+.tagline { margin: 0; color: var(--yellow); font-weight: 700; }
+.desc { margin: 0; color: var(--muted); font-size: 14.5px; flex: 1; }
+.tags { display: flex; flex-wrap: wrap; gap: 4px; }
+.tags span { font-size: 12px; background: rgba(255,255,255,.07); border-radius: 6px; padding: 0 8px; color: var(--muted); }
+.links { display: flex; gap: 8px; align-items: center; margin-top: 6px; }
+.links .small { font-size: 13px; color: var(--muted); }
+.soon { border: 2px dashed rgba(217, 191, 230, .35); border-radius: 18px; display: grid; place-items: center; text-align: center; padding: 24px; color: var(--muted); min-height: 200px; }
+.soon b { display: block; font-size: 22px; color: var(--ink); }
+.support { margin: 34px 0 0; display: grid; grid-template-columns: 1fr auto; gap: 18px; align-items: center; background: rgba(42, 19, 64, .8); border: 2px solid rgba(255, 111, 181, .4); border-radius: 18px; padding: 18px 20px; }
+.support h2 { margin: 0; color: var(--pink); }
+.support p { margin: 4px 0 0; color: var(--muted); }
+dialog { border: 2px solid var(--yellow); border-radius: 18px; background: #24102f; color: var(--ink); max-width: min(92vw, 380px); padding: 18px; text-align: center; }
+dialog::backdrop { background: rgba(10, 4, 16, .75); }
+dialog img { width: 100%; height: auto; border-radius: 12px; background: #fff; }
+dialog h2 { margin: 0 0 4px; color: var(--yellow); }
+dialog p { color: var(--muted); font-size: 14px; margin: 6px 0 10px; }
+footer { margin-top: 30px; text-align: center; color: var(--muted); font-size: 14px; }
+@media (max-width: 760px) { .hero { grid-template-columns: 1fr; } .support { grid-template-columns: 1fr; text-align: center; } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+</style>
+</head>
+<body>
+<div class="bunting" aria-hidden="true"></div>
+<main class="wrap">
+  <header>
+    <h1 class="logo">TAMBAYAN <span>ARCADE</span></h1>
+    <p class="sub">Free Pinoy browser games. Tambay ka muna, laro tayo! No downloads, on any phone or computer.</p>
+    <div class="actions">
+      <a class="btn primary" href="#laro">🎮 Mga Laro · Games</a>
+      <button class="btn" type="button" id="random">🎲 Bahala na! · Random</button>
+      <button class="btn pink" type="button" data-support>☕ Suportahan · Support</button>
+    </div>
+  </header>
+
+  <section class="hero" id="hero" hidden aria-labelledby="hero-title">
+    <img id="hero-img" alt="" width="1600" height="900">
+    <div>
+      <p class="kicker">Pinakabago · Newest</p>
+      <h2 id="hero-title"></h2>
+      <p class="tag" id="hero-tag"></p>
+      <p id="hero-desc"></p>
+      <a class="btn primary" id="hero-play" href="#">Laro na! · Play now</a>
+    </div>
+  </section>
+
+  <section id="laro" aria-labelledby="laro-title">
+    <div class="bar">
+      <h2 id="laro-title">Mga Laro<span class="count" id="count"></span></h2>
+      <div class="filters" id="filters" role="group" aria-label="Filter by genre"></div>
+    </div>
+    <div class="grid" id="games"></div>
+    <div class="grid" style="margin-top:18px"><div class="soon"><div><b>Abangan!</b>More Pinoy games are on the way.</div></div></div>
+  </section>
+
+  <section class="support" aria-labelledby="support-title">
+    <div>
+      <h2 id="support-title">Suportahan ang mga laro</h2>
+      <p>Every game here is free, with no ads. If one made you smile, a small tip through InstaPay (GCash, Maya, BDO and others) helps keep new ones coming.</p>
+    </div>
+    <button class="btn primary" type="button" data-support>☕ Ipakita ang QR · Show QR</button>
+  </section>
+
+  <footer>Made by <a href="https://kon2raya.netlify.app" target="_blank" rel="noopener">Lemmuel Turaya</a> · The stories and folklore in these games are fiction.</footer>
+</main>
+
+<dialog id="support" aria-labelledby="dlg-title">
+  <h2 id="dlg-title">Salamat sa suporta!</h2>
+  <p>Scan with any bank or e-wallet app that supports InstaPay QR.</p>
+  <img src="donate/qr.png" alt="InstaPay QR code for sending support to Kon2raya24 (BDO)" width="679" height="1100" loading="lazy">
+  <p>Walang obligasyon: the games are free either way.</p>
+  <button class="btn primary" type="button" id="support-close">Balik · Close</button>
+</dialog>
+
+<template id="card">
+  <article class="game">
+    <a class="cover" href="#"><img alt="" width="1600" height="900" loading="lazy"><span class="badge"></span></a>
+    <div class="body">
+      <div class="meta"><span class="genre"></span><span>·</span><span class="controls"></span></div>
+      <h3 class="title"></h3>
+      <p class="tagline"></p>
+      <p class="desc"></p>
+      <div class="tags"></div>
+      <div class="links">
+        <a class="btn primary play" href="#">Laro na!</a>
+        <a class="small mirror" href="#">mirror</a>
+        <a class="small repo" href="#" target="_blank" rel="noopener">source</a>
+      </div>
+    </div>
+  </article>
+</template>
+<script type="module" src="src/portal.mjs"></script>
+</body>
+</html>
