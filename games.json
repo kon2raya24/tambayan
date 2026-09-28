@@ -6,7 +6,12 @@
       "tagline": "Battle City, Pinoy style",
       "description": "Drive a jeepney tank, fire garlic, and guard the bahay kubo from duwende, tikbalang, aswang, kapre and manananggal across ten barangays, with a Kapreng Balete and a Bakunawa to beat.",
       "genre": "Arcade",
-      "tags": ["Action", "Retro", "Folklore", "Bosses"],
+      "tags": [
+        "Action",
+        "Retro",
+        "Folklore",
+        "Bosses"
+      ],
       "url": "https://bantay-kubo.vercel.app/",
       "mirror": null,
       "repo": "https://github.com/kon2raya24/bantay-kubo",
@@ -21,7 +26,11 @@
       "tagline": "Classic snake at a Pinoy fiesta",
       "description": "A flag-colored snake in a salakot eats street food on a woven banig and dodges the tinikling poles, through seven festival barangays.",
       "genre": "Arcade",
-      "tags": ["Classic", "Endless", "Festivals"],
+      "tags": [
+        "Classic",
+        "Endless",
+        "Festivals"
+      ],
       "url": "https://ahas-sa-fiesta.vercel.app/",
       "mirror": "https://kon2raya24.github.io/ahas/",
       "repo": "https://github.com/kon2raya24/ahas",
@@ -36,7 +45,11 @@
       "tagline": "The last jeepney of the night",
       "description": "Drive the last trip through Manila from 11 PM to 5 AM. Your passengers are ghosts, and each one has somewhere to be before sunrise.",
       "genre": "Story",
-      "tags": ["Driving", "Ghosts", "Seven nights"],
+      "tags": [
+        "Driving",
+        "Ghosts",
+        "Seven nights"
+      ],
       "url": "https://huling-byahe.vercel.app/",
       "mirror": "https://kon2raya24.github.io/huling-byahe/",
       "repo": "https://github.com/kon2raya24/huling-byahe",
@@ -48,17 +61,21 @@
     {
       "id": "isang-tira",
       "title": "Isang Tira",
-      "tagline": "One-turn Sungka puzzles",
-      "description": "Ten Sungka boards, one turn each. Find the perfect sowing that a solver proved is possible. An early playtest of a daily puzzle.",
+      "tagline": "The daily Sungka puzzle",
+      "description": "One Sungka turn a day, the same board for everyone. Match par in three tries, with Lola Iska watching. Monday is gentle; Sunday is a long sowing.",
       "genre": "Puzzle",
-      "tags": ["Sungka", "Brain teaser", "Prototype"],
-      "url": "https://isang-tira-playtest.vercel.app/play.html",
-      "mirror": "https://kon2raya24.github.io/isang-tira-playtest/play.html",
-      "repo": "https://github.com/kon2raya24/isang-tira-playtest",
+      "tags": [
+        "Sungka",
+        "Daily",
+        "Brain teaser"
+      ],
+      "url": "https://isang-tira.vercel.app/",
+      "mirror": "https://kon2raya24.github.io/isang-tira/",
+      "repo": "https://github.com/kon2raya24/isang-tira",
       "thumb": "thumbs/isang-tira.webp",
       "controls": "Mouse · Touch",
-      "status": "prototype",
-      "added": "2026-09-25"
+      "status": "live",
+      "added": "2026-09-28"
     }
   ]
 }
