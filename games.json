@@ -1,6 +1,25 @@
 {
   "games": [
     {
+      "id": "bakbakan",
+      "title": "Bakbakan sa Kanto",
+      "tagline": "The street fighting classic, Pinoy style",
+      "description": "Pick Lakan the arnisador, Dalisay the sikaran kicker, Mang Tanod, or Boy Balut and his basket of lobbed balut, and fight your way across Cubao, a barangay court and Divisoria to the balete tree, where the Kapre waits. It has combos, specials, supers and throws, three CPU levels, a training mode, and two-player versus.",
+      "genre": "Fighting",
+      "tags": [
+        "3D",
+        "Versus",
+        "Controller"
+      ],
+      "url": "https://bakbakan.vercel.app/",
+      "mirror": "https://kon2raya24.github.io/bakbakan/",
+      "repo": "https://github.com/kon2raya24/bakbakan",
+      "thumb": "thumbs/bakbakan.webp",
+      "controls": "Keyboard · Controller · Touch",
+      "status": "live",
+      "added": "2026-09-29"
+    },
+    {
       "id": "tumbang-preso",
       "title": "Tumbang Preso",
       "tagline": "The Filipino street game, in 3D",
