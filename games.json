@@ -1,6 +1,26 @@
 {
   "games": [
     {
+      "id": "bagong-taon",
+      "title": "Bagong Taon",
+      "tagline": "The classic maze-bomber, New Year's Eve style",
+      "description": "Chase the malas out of every kanto with cartoon Bawang before midnight. Shoo them into kwitis, fill Lola's media noche table, beat the old wall calendar, and jump at 12:00. Two players can share one keyboard.",
+      "genre": "Arcade",
+      "tags": [
+        "Maze",
+        "Classic",
+        "Bomber",
+        "2P"
+      ],
+      "url": "https://bagong-taon.vercel.app/",
+      "mirror": "https://kon2raya24.github.io/bagong-taon/",
+      "repo": "https://github.com/kon2raya24/bagong-taon",
+      "thumb": "thumbs/bagong-taon.webp",
+      "controls": "Keyboard · Touch",
+      "status": "live",
+      "added": "2026-09-29"
+    },
+    {
       "id": "habulan",
       "title": "Habulan sa Palengke",
       "tagline": "The classic maze chase, Pinoy style",
