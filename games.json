@@ -1,6 +1,25 @@
 {
   "games": [
     {
+      "id": "tawid-edsa",
+      "title": "Tawid EDSA",
+      "tagline": "The classic lane-crossing game, Pinoy style",
+      "description": "Get Kokak the palaka across rainy EDSA traffic, then ride the troso and the pagong over the estero, the baha and the Pasig to his family's five gabi leaves. Dodge the buwaya, eat the lamok, and bring the lost anak home.",
+      "genre": "Arcade",
+      "tags": [
+        "Classic",
+        "Reflex",
+        "Traffic"
+      ],
+      "url": "https://tawid-edsa.vercel.app/",
+      "mirror": "https://kon2raya24.github.io/tawid-edsa/",
+      "repo": "https://github.com/kon2raya24/tawid-edsa",
+      "thumb": "thumbs/tawid-edsa.webp",
+      "controls": "Keyboard · Swipe",
+      "status": "live",
+      "added": "2026-09-29"
+    },
+    {
       "id": "bagong-taon",
       "title": "Bagong Taon",
       "tagline": "The classic maze-bomber, New Year's Eve style",
