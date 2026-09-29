@@ -1,6 +1,25 @@
 {
   "games": [
     {
+      "id": "habulan",
+      "title": "Habulan sa Palengke",
+      "tagline": "The classic maze chase, Pinoy style",
+      "description": "Eat all the pan de sal while four tsismosa titas chase you through the palengke, simbahan and mall. Grab Nanay's tsinelas and chase them back.",
+      "genre": "Arcade",
+      "tags": [
+        "Maze",
+        "Classic",
+        "Chase"
+      ],
+      "url": "https://habulan.vercel.app/",
+      "mirror": "https://kon2raya24.github.io/habulan/",
+      "repo": "https://github.com/kon2raya24/habulan",
+      "thumb": "thumbs/habulan.webp",
+      "controls": "Keyboard · Swipe",
+      "status": "live",
+      "added": "2026-09-29"
+    },
+    {
       "id": "bantay-kubo",
       "title": "Bantay Kubo",
       "tagline": "Battle City, Pinoy style",
