@@ -1,6 +1,25 @@
 {
   "games": [
     {
+      "id": "hollow-blocks",
+      "title": "Hollow Blocks",
+      "tagline": "The falling-block classic, Pinoy style",
+      "description": "Stack kawayan, hollow blocks, ladrilyo, yero, plywood, baldosa and adobe on a construction site. Clear four rows at once for a BAYANIHAN, raise the building floor by floor, beat the Deadline, or hold off the Bagyo flood.",
+      "genre": "Puzzle",
+      "tags": [
+        "Classic",
+        "Blocks",
+        "Arcade"
+      ],
+      "url": "https://hollow-blocks.vercel.app/",
+      "mirror": "https://kon2raya24.github.io/hollow-blocks/",
+      "repo": "https://github.com/kon2raya24/hollow-blocks",
+      "thumb": "thumbs/hollow-blocks.webp",
+      "controls": "Keyboard · Touch",
+      "status": "live",
+      "added": "2026-09-29"
+    },
+    {
       "id": "tawid-edsa",
       "title": "Tawid EDSA",
       "tagline": "The classic lane-crossing game, Pinoy style",
