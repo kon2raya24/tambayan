@@ -1,6 +1,25 @@
 {
   "games": [
     {
+      "id": "tumbang-preso",
+      "title": "Tumbang Preso",
+      "tagline": "The Filipino street game, in 3D",
+      "description": "Throw your tsinelas at the sardinas can, then run to get it back before the taya tags you. Play against Buboy, Nene, Kulot and Bong on a 3D street at dusk, with the sari-sari store, the jeepney and the banderitas. Plug in a PlayStation controller, or use the keyboard or touch.",
+      "genre": "Arcade",
+      "tags": [
+        "3D",
+        "Street game",
+        "Controller"
+      ],
+      "url": "https://tumbang-preso-3d.vercel.app/",
+      "mirror": "https://kon2raya24.github.io/tumbang-preso/",
+      "repo": "https://github.com/kon2raya24/tumbang-preso",
+      "thumb": "thumbs/tumbang-preso.webp",
+      "controls": "Keyboard · Controller · Touch",
+      "status": "live",
+      "added": "2026-09-29"
+    },
+    {
       "id": "hollow-blocks",
       "title": "Hollow Blocks",
       "tagline": "The falling-block classic, Pinoy style",
