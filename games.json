@@ -1,259 +1,259 @@
 {
-  "games": [
-    {
-      "id": "kakanin-crush",
-      "title": "Kakanin Crush",
-      "tagline": "Match-3, Pinoy style, in 3D",
-      "description": "Swap puto, kutsinta, sapin-sapin, bibingka, ube halaya and suman on Lola Pacing's bilao at a fiesta stall. Make a Sandok, a Kaldero, a Bilao ng Lahat, clean the latik, and sell out with an Ubos-Benta.",
-      "genre": "Puzzle",
-      "tags": [
-        "Match-3",
-        "Classic",
-        "3D"
-      ],
-      "url": "https://kakanin-crush.vercel.app/",
-      "mirror": "https://kon2raya24.github.io/kakanin-crush/",
-      "repo": "https://github.com/kon2raya24/kakanin-crush",
-      "thumb": "thumbs/kakanin-crush.webp",
-      "controls": "Touch · Mouse · Keyboard",
-      "status": "live",
-      "added": "2026-10-08"
-    },
-    {
-      "id": "bakbakan",
-      "title": "Bakbakan sa Kanto",
-      "tagline": "The street fighting classic, Pinoy style",
-      "description": "Pick Lakan the arnisador, Dalisay the sikaran kicker, Mang Tanod, or Boy Balut and his basket of lobbed balut, and fight your way across Cubao, a barangay court and Divisoria to the balete tree, where the Kapre waits. It has combos, specials, supers and throws, three CPU levels, a training mode, and two-player versus.",
-      "genre": "Fighting",
-      "tags": [
-        "3D",
-        "Versus",
-        "Controller"
-      ],
-      "url": "https://bakbakan.vercel.app/",
-      "mirror": "https://kon2raya24.github.io/bakbakan/",
-      "repo": "https://github.com/kon2raya24/bakbakan",
-      "thumb": "thumbs/bakbakan.webp",
-      "controls": "Keyboard · Controller · Touch",
-      "status": "live",
-      "added": "2026-09-29",
-      "updated": "2026-09-30",
-      "feature": 2
-    },
-    {
-      "id": "tumbang-preso",
-      "title": "Tumbang Preso",
-      "tagline": "The Filipino street game, in 3D",
-      "description": "Throw your tsinelas at the sardinas can, then run to get it back before the taya tags you. Play against Buboy, Nene, Kulot and Bong on a 3D street at dusk, with the sari-sari store, the jeepney and the banderitas. Plug in a PlayStation controller, or use the keyboard or touch.",
-      "genre": "Arcade",
-      "tags": [
-        "3D",
-        "Street game",
-        "Controller"
-      ],
-      "url": "https://tumbang-preso-3d.vercel.app/",
-      "mirror": "https://kon2raya24.github.io/tumbang-preso/",
-      "repo": "https://github.com/kon2raya24/tumbang-preso",
-      "thumb": "thumbs/tumbang-preso.webp",
-      "controls": "Keyboard · Controller · Touch",
-      "status": "live",
-      "added": "2026-09-29",
-      "updated": "2026-09-30",
-      "feature": 3
-    },
-    {
-      "id": "hollow-blocks",
-      "title": "Hollow Blocks",
-      "tagline": "The falling-block classic, Pinoy style",
-      "description": "Stack kawayan, hollow blocks, ladrilyo, yero, plywood, baldosa and adobe on a construction site. Clear four rows at once for a BAYANIHAN, raise the building floor by floor, beat the Deadline, or hold off the Bagyo flood.",
-      "genre": "Puzzle",
-      "tags": [
-        "3D",
-        "Classic",
-        "Blocks",
-        "Arcade"
-      ],
-      "url": "https://hollow-blocks.vercel.app/",
-      "mirror": "https://kon2raya24.github.io/hollow-blocks/",
-      "repo": "https://github.com/kon2raya24/hollow-blocks",
-      "thumb": "thumbs/hollow-blocks.webp",
-      "controls": "Keyboard · Touch",
-      "status": "live",
-      "added": "2026-09-29",
-      "updated": "2026-10-01"
-    },
-    {
-      "id": "tawid-edsa",
-      "title": "Tawid EDSA",
-      "tagline": "The classic lane-crossing game, Pinoy style",
-      "description": "Get Kokak the palaka across rainy EDSA traffic, then ride the troso and the pagong over the estero, the baha and the Pasig to his family's five gabi leaves. Dodge the buwaya, eat the lamok, and bring the lost anak home.",
-      "genre": "Arcade",
-      "tags": [
-        "3D",
-        "Classic",
-        "Reflex",
-        "Traffic"
-      ],
-      "url": "https://tawid-edsa.vercel.app/",
-      "mirror": "https://kon2raya24.github.io/tawid-edsa/",
-      "repo": "https://github.com/kon2raya24/tawid-edsa",
-      "thumb": "thumbs/tawid-edsa.webp",
-      "controls": "Keyboard · Swipe",
-      "status": "live",
-      "added": "2026-09-29",
-      "updated": "2026-10-01",
-      "feature": 6
-    },
-    {
-      "id": "bagong-taon",
-      "title": "Bagong Taon",
-      "tagline": "The classic maze-bomber, New Year's Eve style",
-      "description": "Chase the malas out of every kanto with cartoon Bawang before midnight. Shoo them into kwitis, fill Lola's media noche table, beat the old wall calendar, and jump at 12:00. Two players can share one keyboard.",
-      "genre": "Arcade",
-      "tags": [
-        "3D",
-        "Maze",
-        "Classic",
-        "Bomber",
-        "2P"
-      ],
-      "url": "https://bagong-taon.vercel.app/",
-      "mirror": "https://kon2raya24.github.io/bagong-taon/",
-      "repo": "https://github.com/kon2raya24/bagong-taon",
-      "thumb": "thumbs/bagong-taon.webp",
-      "controls": "Keyboard · Touch",
-      "status": "live",
-      "added": "2026-09-29",
-      "updated": "2026-10-01"
-    },
-    {
-      "id": "habulan",
-      "title": "Habulan sa Palengke",
-      "tagline": "The classic maze chase, Pinoy style",
-      "description": "Eat all the pan de sal while four tsismosa titas chase you through the palengke, simbahan and mall. Grab Nanay's tsinelas and chase them back.",
-      "genre": "Arcade",
-      "tags": [
-        "3D",
-        "Maze",
-        "Classic",
-        "Chase"
-      ],
-      "url": "https://habulan.vercel.app/",
-      "mirror": "https://kon2raya24.github.io/habulan/",
-      "repo": "https://github.com/kon2raya24/habulan",
-      "thumb": "thumbs/habulan.webp",
-      "controls": "Keyboard · Swipe",
-      "status": "live",
-      "added": "2026-09-29",
-      "updated": "2026-10-01",
-      "feature": 4
-    },
-    {
-      "id": "bantay-kubo",
-      "title": "Bantay Kubo",
-      "tagline": "Battle City, Pinoy style",
-      "description": "Drive a jeepney tank, fire garlic, and guard the bahay kubo from duwende, tikbalang, aswang, kapre and manananggal across ten barangays, with a Kapreng Balete and a Bakunawa to beat.",
-      "genre": "Arcade",
-      "tags": [
-        "3D",
-        "Action",
-        "Retro",
-        "Folklore",
-        "Bosses"
-      ],
-      "url": "https://bantay-kubo.vercel.app/",
-      "mirror": null,
-      "repo": "https://github.com/kon2raya24/bantay-kubo",
-      "thumb": "thumbs/bantay-kubo.webp",
-      "controls": "Keyboard · Touch",
-      "status": "live",
-      "added": "2026-09-28",
-      "updated": "2026-10-01",
-      "feature": 7
-    },
-    {
-      "id": "ahas",
-      "title": "Ahas sa Fiesta",
-      "tagline": "Classic snake at a Pinoy fiesta",
-      "description": "A flag-colored snake in a salakot eats street food on a woven banig and dodges the tinikling poles, through seven festival barangays.",
-      "genre": "Arcade",
-      "tags": [
-        "3D",
-        "Classic",
-        "Endless",
-        "Festivals"
-      ],
-      "url": "https://ahas-sa-fiesta.vercel.app/",
-      "mirror": "https://kon2raya24.github.io/ahas/",
-      "repo": "https://github.com/kon2raya24/ahas",
-      "thumb": "thumbs/ahas.webp",
-      "controls": "Keyboard · Swipe",
-      "status": "live",
-      "added": "2026-09-28",
-      "updated": "2026-10-01"
-    },
-    {
-      "id": "huling-byahe",
-      "title": "Huling Byahe",
-      "tagline": "The last jeepney of the night",
-      "description": "Drive the last trip through Manila from 11 PM to 5 AM. Your passengers are ghosts, and each one has somewhere to be before sunrise.",
-      "genre": "Story",
-      "tags": [
-        "3D",
-        "Driving",
-        "Ghosts",
-        "Seven nights"
-      ],
-      "url": "https://huling-byahe.vercel.app/",
-      "mirror": "https://kon2raya24.github.io/huling-byahe/",
-      "repo": "https://github.com/kon2raya24/huling-byahe",
-      "thumb": "thumbs/huling-byahe.webp",
-      "controls": "Keyboard · Touch",
-      "status": "live",
-      "added": "2026-09-28",
-      "updated": "2026-10-01",
-      "feature": 5
-    },
-    {
-      "id": "isang-tira",
-      "title": "Isang Tira",
-      "tagline": "Sungka against Lola Iska",
-      "description": "Play Sungka against Lola Iska, the traditional way: turns, relays, captures, and round after round with burnt houses. Three levels of Lola, plus a daily one-turn puzzle.",
-      "genre": "Puzzle",
-      "tags": [
-        "3D",
-        "Sungka",
-        "Daily",
-        "Brain teaser"
-      ],
-      "url": "https://isang-tira.vercel.app/",
-      "mirror": "https://kon2raya24.github.io/isang-tira/",
-      "repo": "https://github.com/kon2raya24/isang-tira",
-      "thumb": "thumbs/isang-tira.webp",
-      "controls": "Mouse · Touch",
-      "status": "live",
-      "added": "2026-09-28",
-      "updated": "2026-10-01"
-    },
-    {
-      "id": "lipat-bahay",
-      "title": "Lipat-Bahay",
-      "tagline": "A family moves house, one push at a time",
-      "description": "A 3D pushing puzzle with a story: Tatay pushes the heavy things, Ate the boxes, little Migo squeezes through gaps, and lined up together they move anything. 36 rooms from the province to Manila and home for Christmas, an endless Moving Day with surprises, a daily room, and a room editor to share.",
-      "genre": "Puzzle",
-      "tags": [
-        "3D",
-        "Story",
-        "Sokoban",
-        "Daily",
-        "Co-op"
-      ],
-      "url": "https://lipat-bahay.vercel.app/",
-      "thumb": "thumbs/lipat-bahay.webp",
-      "controls": "Keyboard · Touch · Controller",
-      "status": "live",
-      "added": "2026-10-07",
-      "feature": 1
-    }
-  ]
+ "games": [
+  {
+   "id": "kakanin-crush",
+   "title": "Kakanin Crush",
+   "tagline": "Match-3, Pinoy style, in 3D",
+   "description": "Swap puto, kutsinta, sapin-sapin, bibingka, ube halaya and suman on Lola Pacing's bilao at a fiesta stall. Make a Sandok, a Kaldero, a Bilao ng Lahat, clean the latik, and sell out with an Ubos-Benta.",
+   "genre": "Puzzle",
+   "tags": [
+    "Match-3",
+    "Classic",
+    "3D"
+   ],
+   "url": "https://kakanin-crush.vercel.app/",
+   "mirror": "https://kon2raya24.github.io/kakanin-crush/",
+   "repo": "https://github.com/kon2raya24/kakanin-crush",
+   "thumb": "thumbs/kakanin-crush.webp",
+   "controls": "Touch · Mouse · Keyboard",
+   "status": "live",
+   "added": "2026-10-08"
+  },
+  {
+   "id": "bakbakan",
+   "title": "Bakbakan sa Kanto",
+   "tagline": "The street fighting classic, Pinoy style",
+   "description": "Pick Lakan the arnisador, Dalisay the sikaran kicker, Mang Tanod, or Boy Balut and his basket of lobbed balut, and fight your way across Cubao, a barangay court and Divisoria to the balete tree, where the Kapre waits. It has combos, specials, supers and throws, three CPU levels, a training mode, and two-player versus.",
+   "genre": "Fighting",
+   "tags": [
+    "3D",
+    "Versus",
+    "Controller"
+   ],
+   "url": "https://bakbakan.vercel.app/",
+   "mirror": "https://kon2raya24.github.io/bakbakan/",
+   "repo": "https://github.com/kon2raya24/bakbakan",
+   "thumb": "thumbs/bakbakan.webp",
+   "controls": "Keyboard · Controller · Touch",
+   "status": "live",
+   "added": "2026-09-29",
+   "updated": "2026-09-30",
+   "feature": 2
+  },
+  {
+   "id": "tumbang-preso",
+   "title": "Tumbang Preso",
+   "tagline": "The Filipino street game, in 3D",
+   "description": "Throw your tsinelas at the sardinas can, then run to get it back before the taya tags you. Play against Buboy, Nene, Kulot and Bong on a 3D street at dusk, with the sari-sari store, the jeepney and the banderitas. Plug in a PlayStation controller, or use the keyboard or touch.",
+   "genre": "Arcade",
+   "tags": [
+    "3D",
+    "Street game",
+    "Controller"
+   ],
+   "url": "https://tumbang-preso-3d.vercel.app/",
+   "mirror": "https://kon2raya24.github.io/tumbang-preso/",
+   "repo": "https://github.com/kon2raya24/tumbang-preso",
+   "thumb": "thumbs/tumbang-preso.webp",
+   "controls": "Keyboard · Controller · Touch",
+   "status": "live",
+   "added": "2026-09-29",
+   "updated": "2026-09-30",
+   "feature": 3
+  },
+  {
+   "id": "hollow-blocks",
+   "title": "Hollow Blocks",
+   "tagline": "The falling-block classic, Pinoy style",
+   "description": "Stack kawayan, hollow blocks, ladrilyo, yero, plywood, baldosa and adobe on a construction site. Clear four rows at once for a BAYANIHAN, raise the building floor by floor, beat the Deadline, or hold off the Bagyo flood.",
+   "genre": "Puzzle",
+   "tags": [
+    "3D",
+    "Classic",
+    "Blocks",
+    "Arcade"
+   ],
+   "url": "https://hollow-blocks.vercel.app/",
+   "mirror": "https://kon2raya24.github.io/hollow-blocks/",
+   "repo": "https://github.com/kon2raya24/hollow-blocks",
+   "thumb": "thumbs/hollow-blocks.webp",
+   "controls": "Keyboard · Touch",
+   "status": "live",
+   "added": "2026-09-29",
+   "updated": "2026-10-01"
+  },
+  {
+   "id": "tawid-edsa",
+   "title": "Tawid EDSA",
+   "tagline": "The classic lane-crossing game, Pinoy style",
+   "description": "Get Kokak the palaka across rainy EDSA traffic, then ride the troso and the pagong over the estero, the baha and the Pasig to his family's five gabi leaves. Dodge the buwaya, eat the lamok, and bring the lost anak home.",
+   "genre": "Arcade",
+   "tags": [
+    "3D",
+    "Classic",
+    "Reflex",
+    "Traffic"
+   ],
+   "url": "https://tawid-edsa.vercel.app/",
+   "mirror": "https://kon2raya24.github.io/tawid-edsa/",
+   "repo": "https://github.com/kon2raya24/tawid-edsa",
+   "thumb": "thumbs/tawid-edsa.webp",
+   "controls": "Keyboard · Swipe",
+   "status": "live",
+   "added": "2026-09-29",
+   "updated": "2026-10-01",
+   "feature": 6
+  },
+  {
+   "id": "bagong-taon",
+   "title": "Bagong Taon",
+   "tagline": "The classic maze-bomber, New Year's Eve style",
+   "description": "Chase the malas out of every kanto with cartoon Bawang before midnight. Shoo them into kwitis, fill Lola's media noche table, beat the old wall calendar, and jump at 12:00. Two players can share one keyboard.",
+   "genre": "Arcade",
+   "tags": [
+    "3D",
+    "Maze",
+    "Classic",
+    "Bomber",
+    "2P"
+   ],
+   "url": "https://bagong-taon.vercel.app/",
+   "mirror": "https://kon2raya24.github.io/bagong-taon/",
+   "repo": "https://github.com/kon2raya24/bagong-taon",
+   "thumb": "thumbs/bagong-taon.webp",
+   "controls": "Keyboard · Touch",
+   "status": "live",
+   "added": "2026-09-29",
+   "updated": "2026-10-01"
+  },
+  {
+   "id": "habulan",
+   "title": "Habulan sa Palengke",
+   "tagline": "The classic maze chase, Pinoy style",
+   "description": "Eat all the pan de sal while four tsismosa titas chase you through the palengke, simbahan and mall. Grab Nanay's tsinelas and chase them back.",
+   "genre": "Arcade",
+   "tags": [
+    "3D",
+    "Maze",
+    "Classic",
+    "Chase"
+   ],
+   "url": "https://habulan.vercel.app/",
+   "mirror": "https://kon2raya24.github.io/habulan/",
+   "repo": "https://github.com/kon2raya24/habulan",
+   "thumb": "thumbs/habulan.webp",
+   "controls": "Keyboard · Swipe",
+   "status": "live",
+   "added": "2026-09-29",
+   "updated": "2026-10-01",
+   "feature": 4
+  },
+  {
+   "id": "bantay-kubo",
+   "title": "Bantay Kubo",
+   "tagline": "Battle City, Pinoy style",
+   "description": "Drive a jeepney tank, fire garlic, and guard the bahay kubo from duwende, tikbalang, aswang, kapre and manananggal across ten barangays, with a Kapreng Balete and a Bakunawa to beat.",
+   "genre": "Arcade",
+   "tags": [
+    "3D",
+    "Action",
+    "Retro",
+    "Folklore",
+    "Bosses"
+   ],
+   "url": "https://bantay-kubo.vercel.app/",
+   "mirror": null,
+   "repo": "https://github.com/kon2raya24/bantay-kubo",
+   "thumb": "thumbs/bantay-kubo.webp",
+   "controls": "Keyboard · Touch",
+   "status": "live",
+   "added": "2026-09-28",
+   "updated": "2026-10-01",
+   "feature": 7
+  },
+  {
+   "id": "ahas",
+   "title": "Ahas sa Fiesta",
+   "tagline": "Classic snake at a Pinoy fiesta",
+   "description": "A flag-colored snake in a salakot eats street food on a woven banig and dodges the tinikling poles, through seven festival barangays.",
+   "genre": "Arcade",
+   "tags": [
+    "3D",
+    "Classic",
+    "Endless",
+    "Festivals"
+   ],
+   "url": "https://ahas-sa-fiesta.vercel.app/",
+   "mirror": "https://kon2raya24.github.io/ahas/",
+   "repo": "https://github.com/kon2raya24/ahas",
+   "thumb": "thumbs/ahas.webp",
+   "controls": "Keyboard · Swipe",
+   "status": "live",
+   "added": "2026-09-28",
+   "updated": "2026-10-01"
+  },
+  {
+   "id": "huling-byahe",
+   "title": "Huling Byahe",
+   "tagline": "The last jeepney of the night",
+   "description": "Drive the last trip through Manila from 11 PM to 5 AM. Your passengers are ghosts, and each one has somewhere to be before sunrise.",
+   "genre": "Story",
+   "tags": [
+    "3D",
+    "Driving",
+    "Ghosts",
+    "Seven nights"
+   ],
+   "url": "https://huling-byahe.vercel.app/",
+   "mirror": "https://kon2raya24.github.io/huling-byahe/",
+   "repo": "https://github.com/kon2raya24/huling-byahe",
+   "thumb": "thumbs/huling-byahe.webp",
+   "controls": "Keyboard · Touch",
+   "status": "live",
+   "added": "2026-09-28",
+   "updated": "2026-10-01",
+   "feature": 5
+  },
+  {
+   "id": "isang-tira",
+   "title": "Isang Tira",
+   "tagline": "Sungka against Lola Iska",
+   "description": "Play Sungka against Lola Iska, the traditional way: turns, relays, captures, and round after round with burnt houses. Three levels of Lola, plus a daily one-turn puzzle.",
+   "genre": "Puzzle",
+   "tags": [
+    "3D",
+    "Sungka",
+    "Daily",
+    "Brain teaser"
+   ],
+   "url": "https://isang-tira.vercel.app/",
+   "mirror": "https://kon2raya24.github.io/isang-tira/",
+   "repo": "https://github.com/kon2raya24/isang-tira",
+   "thumb": "thumbs/isang-tira.webp",
+   "controls": "Mouse · Touch",
+   "status": "live",
+   "added": "2026-09-28",
+   "updated": "2026-10-01"
+  },
+  {
+   "id": "lipat-bahay",
+   "title": "Lipat-Bahay",
+   "tagline": "A family moves house, one push at a time",
+   "description": "A 3D pushing puzzle with a story: Tatay pushes the heavy things, Ate the boxes, little Migo squeezes through gaps, and lined up together they move anything. 36 rooms from the province to Manila and home for Christmas, an endless Moving Day with surprises, a daily room, and a room editor to share.",
+   "genre": "Puzzle",
+   "tags": [
+    "3D",
+    "Story",
+    "Sokoban",
+    "Daily",
+    "Co-op"
+   ],
+   "url": "https://lipat-bahay.vercel.app/",
+   "thumb": "thumbs/lipat-bahay.webp",
+   "controls": "Keyboard · Touch · Controller",
+   "status": "live",
+   "added": "2026-10-07",
+   "feature": 1
+  }
+ ]
 }
