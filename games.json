@@ -1,6 +1,24 @@
 {
  "games": [
   {
+   "id": "akyat-pista",
+   "title": "Akyat Pista",
+   "tagline": "Snakes and Ladders, Pinoy style, in 3D",
+   "description": "Climb a terraced barrio to the fiesta plaza with Kikay, Nonoy, Lola and the gang. Roll two dice and pick one, take the bamboo hagdan and the palosebo, dodge the fiesta ahas, grab pasalubong cards (Ulit, Sakay, Agimat, Palit), and bump your rivals back down the hill. 2–4 players, pass-and-play or against the CPU.",
+   "genre": "Board",
+   "tags": [
+    "Board",
+    "Party",
+    "3D"
+   ],
+   "url": "https://akyat-pista.vercel.app/",
+   "thumb": "thumbs/akyat-pista.webp",
+   "controls": "Touch · Mouse · Keyboard · Gamepad",
+   "status": "live",
+   "added": "2026-10-09",
+   "feature": 1
+  },
+  {
    "id": "kakanin-crush",
    "title": "Kakanin Crush",
    "tagline": "Match-3, Pinoy style, in 3D",
@@ -38,7 +56,7 @@
    "status": "live",
    "added": "2026-09-29",
    "updated": "2026-09-30",
-   "feature": 2
+   "feature": 3
   },
   {
    "id": "tumbang-preso",
@@ -59,7 +77,7 @@
    "status": "live",
    "added": "2026-09-29",
    "updated": "2026-09-30",
-   "feature": 3
+   "feature": 4
   },
   {
    "id": "hollow-blocks",
@@ -102,7 +120,7 @@
    "status": "live",
    "added": "2026-09-29",
    "updated": "2026-10-01",
-   "feature": 6
+   "feature": 7
   },
   {
    "id": "bagong-taon",
@@ -146,7 +164,7 @@
    "status": "live",
    "added": "2026-09-29",
    "updated": "2026-10-01",
-   "feature": 4
+   "feature": 5
   },
   {
    "id": "bantay-kubo",
@@ -169,7 +187,7 @@
    "status": "live",
    "added": "2026-09-28",
    "updated": "2026-10-01",
-   "feature": 7
+   "feature": 8
   },
   {
    "id": "ahas",
@@ -212,7 +230,7 @@
    "status": "live",
    "added": "2026-09-28",
    "updated": "2026-10-01",
-   "feature": 5
+   "feature": 6
   },
   {
    "id": "isang-tira",
@@ -253,7 +271,7 @@
    "controls": "Keyboard · Touch · Controller",
    "status": "live",
    "added": "2026-10-07",
-   "feature": 1
+   "feature": 2
   }
  ]
 }
