@@ -1,6 +1,24 @@
 {
  "games": [
   {
+   "id": "gabi-ng-aswang",
+   "title": "Gabi ng Aswang",
+   "tagline": "Survive the night, Lola: an endless cartoon horde game",
+   "description": "Lola Nena holds out in a barrio at night against swarms of tiyanak, flying manananggal, dashing aswang and a giant Kapre every three minutes. Her weapons fire on their own: rock salt, a garlic aura, spinning itak, agua bendita, tsinelas and a walis. You move her and pick an upgrade at every level-up. How long can you last?",
+   "genre": "Action",
+   "tags": [
+    "Action",
+    "Endless",
+    "3D"
+   ],
+   "url": "https://gabi-ng-aswang.vercel.app/",
+   "thumb": "thumbs/gabi-ng-aswang.webp",
+   "controls": "Touch · Mouse · Keyboard · Gamepad",
+   "status": "live",
+   "added": "2026-10-13",
+   "feature": 1
+  },
+  {
    "id": "akyat-pista",
    "title": "Akyat Pista",
    "tagline": "Snakes and Ladders, Pinoy style, in 3D",
@@ -16,7 +34,7 @@
    "controls": "Touch · Mouse · Keyboard · Gamepad",
    "status": "live",
    "added": "2026-10-09",
-   "feature": 1
+   "feature": 2
   },
   {
    "id": "kakanin-crush",
@@ -56,7 +74,7 @@
    "status": "live",
    "added": "2026-09-29",
    "updated": "2026-09-30",
-   "feature": 3
+   "feature": 4
   },
   {
    "id": "tumbang-preso",
@@ -77,7 +95,7 @@
    "status": "live",
    "added": "2026-09-29",
    "updated": "2026-09-30",
-   "feature": 4
+   "feature": 5
   },
   {
    "id": "hollow-blocks",
@@ -120,7 +138,7 @@
    "status": "live",
    "added": "2026-09-29",
    "updated": "2026-10-01",
-   "feature": 7
+   "feature": 8
   },
   {
    "id": "bagong-taon",
@@ -164,7 +182,7 @@
    "status": "live",
    "added": "2026-09-29",
    "updated": "2026-10-01",
-   "feature": 5
+   "feature": 6
   },
   {
    "id": "bantay-kubo",
@@ -187,7 +205,7 @@
    "status": "live",
    "added": "2026-09-28",
    "updated": "2026-10-01",
-   "feature": 8
+   "feature": 9
   },
   {
    "id": "ahas",
@@ -230,7 +248,7 @@
    "status": "live",
    "added": "2026-09-28",
    "updated": "2026-10-01",
-   "feature": 6
+   "feature": 7
   },
   {
    "id": "isang-tira",
@@ -271,7 +289,7 @@
    "controls": "Keyboard · Touch · Controller",
    "status": "live",
    "added": "2026-10-07",
-   "feature": 2
+   "feature": 3
   }
  ]
 }
