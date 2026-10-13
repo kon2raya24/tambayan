@@ -3,20 +3,21 @@
   {
    "id": "gabi-ng-aswang",
    "title": "Gabi ng Aswang",
-   "tagline": "Survive the night, Lola: an endless cartoon horde game",
-   "description": "Lola Nena holds out in a barrio at night against swarms of tiyanak, flying manananggal, dashing aswang and a giant Kapre every three minutes. Her weapons fire on their own: rock salt, a garlic aura, spinning itak, agua bendita, tsinelas and a walis. You move her and pick an upgrade at every level-up. How long can you last?",
+   "tagline": "Survive the night, Lola: an endless pixel horde game",
+   "description": "Lola Nena auto-walks through a pixel barrio at night while tiyanak, manananggal, aswang and a giant Kapre close in. Her weapons fire on their own: rock salt, garlic, spinning itak, agua bendita, tsinelas and a walis. Pick an upgrade at every level-up, open the Kapre's bayong for evolutions, and last until sunrise at 15:00 or keep going. Cheat codes included.",
    "genre": "Action",
    "tags": [
     "Action",
     "Endless",
-    "3D"
+    "Pixel"
    ],
    "url": "https://gabi-ng-aswang.vercel.app/",
    "thumb": "thumbs/gabi-ng-aswang.webp",
    "controls": "Touch · Mouse · Keyboard · Gamepad",
    "status": "live",
    "added": "2026-10-13",
-   "feature": 1
+   "feature": 1,
+   "updated": "2026-10-13"
   },
   {
    "id": "akyat-pista",
