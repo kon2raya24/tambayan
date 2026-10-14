@@ -2,22 +2,22 @@
  "games": [
   {
    "id": "gabi-ng-aswang",
-   "title": "Gabi ng Aswang",
-   "tagline": "Survive the night, Lola: an endless pixel horde game",
-   "description": "Lola Nena auto-walks through a pixel barrio at night while tiyanak, manananggal, aswang and a giant Kapre close in. Her weapons fire on their own: rock salt, garlic, spinning itak, agua bendita, tsinelas and a walis. Pick an upgrade at every level-up, open the Kapre's bayong for evolutions, and last until sunrise at 15:00 or keep going. Cheat codes included.",
+   "title": "Aswang Apocalypse",
+   "tagline": "Survive the night, Lola: an endless monster horde game",
+   "description": "Lola Nena and the barrio hold off an endless night of tiyanak, manananggal, the White Lady and duwende thieves. Weapons fire on their own: rock salt, garlic, itak, agua bendita, tsinelas and a walis. Level up, evolve your weapons in the bayong, beat the Tikbalang, the Manananggal Queen and the Kapre, then bang the pots to stun the moon-eating Bakunawa and bring the dawn. A five-chapter komiks story, your own heroes in the Workshop, and three difficulties.",
    "genre": "Action",
    "tags": [
     "Action",
     "Endless",
     "Pixel"
    ],
-   "url": "https://gabi-ng-aswang.vercel.app/",
+   "url": "https://aswang-apocalypse.vercel.app/",
    "thumb": "thumbs/gabi-ng-aswang.webp",
    "controls": "Touch · Mouse · Keyboard · Gamepad",
    "status": "live",
    "added": "2026-10-13",
    "feature": 1,
-   "updated": "2026-10-13"
+   "updated": "2026-10-14"
   },
   {
    "id": "akyat-pista",
