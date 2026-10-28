@@ -52,3 +52,11 @@ test('the carousel features live games, the most recently added or remade first;
   assert.equal(isUpdated({ added: '2026-09-30', updated: '2026-10-01' }, today), false, 'still just new');
   assert.equal(isUpdated(list[1], new Date('2026-11-01')), false);
 });
+
+test('every game has a guide page, listed in the sitemap', () => {
+  const sitemap = readFileSync(new URL('../sitemap.xml', import.meta.url), 'utf8');
+  for (const g of games) {
+    assert.ok(existsSync(new URL(`../games/${g.id}.html`, import.meta.url)), `games/${g.id}.html missing`);
+    assert.ok(sitemap.includes(`/games/${g.id}.html<`), `${g.id}: not in sitemap.xml`);
+  }
+});

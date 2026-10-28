@@ -27,7 +27,8 @@ Edit **`games.json`** only. The page builds itself from it: the featured game, t
 }
 ```
 
-3. Run `node --test test/*.test.mjs`. It checks every entry is complete and its thumbnail exists.
+3. Write its guide page, `games/<id>.html`, from `games/TEMPLATE.txt`, add it to the "more" links on the other guides and `about.html`, and add its URL to `sitemap.xml`.
+4. Run `node --test test/*.test.mjs`. It checks every entry is complete, its thumbnail exists, and it has a guide page in the sitemap.
 
 `status` is `live` or `prototype`. Live games come first, newest first, and the newest live game is featured at the top.
 

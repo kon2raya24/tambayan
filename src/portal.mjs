@@ -50,6 +50,7 @@ function card(game, today) {
   play.setAttribute('aria-label', `Play ${game.title}`);
   $('.cover', tpl).href = game.url;
   $('.cover', tpl).setAttribute('aria-label', `Play ${game.title}`);
+  $('.guide', tpl).href = `games/${game.id}.html`;
   const mirror = $('.mirror', tpl);
   if (game.mirror) mirror.href = game.mirror; else mirror.remove();
   const repo = $('.repo', tpl);
